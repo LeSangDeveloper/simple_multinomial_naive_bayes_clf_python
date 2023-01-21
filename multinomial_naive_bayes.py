@@ -5,3 +5,6 @@ class MultinomialNB():
 
     def __call__(self):
         print("Call classifier")
+
+    def fit(self, X, y):
+        print("fit the model")
